@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: purple;
+}
+
+.addButton{
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 35px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.addButton:active{
+    background-color: blue;
+}
+
+.clearButton{
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 35px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.clearButton:active{
+    background-color: black;
+}
+
+.todos{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
